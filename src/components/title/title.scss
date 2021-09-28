@@ -1,0 +1,25 @@
+@import "../../global.scss";
+
+.title {
+	width: 75%;
+	height: 15vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	img {
+		width: 100%;
+		height: 150%;
+		object-fit: contain;
+		background: rgb(0, 113, 187);
+		background: linear-gradient(
+			90deg,
+			rgba(0, 113, 187, 1) 0%,
+			rgba(255, 204, 0, 1) 15%,
+			rgba(255, 255, 255, 1) 30%,
+			rgba(255, 255, 255, 1) 70%,
+			rgba(255, 204, 0, 1) 85%,
+			rgba(0, 113, 187, 1) 100%
+		);
+	}
+}

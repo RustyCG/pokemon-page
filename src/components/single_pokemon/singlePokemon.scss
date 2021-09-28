@@ -1,0 +1,84 @@
+@import "../../global.scss";
+
+.card {
+	background-color: #dcdcdc;
+	border: 5px solid #0071bb;
+	width: calc(100% / 3);
+	height: auto;
+	display: flex;
+	flex-grow: 1;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 1vh 0.5vw;
+	border-radius: 8px;
+
+	.num,
+	.name {
+		margin: 0;
+		color: black;
+		font-weight: 900;
+	}
+	.name {
+		font-size: 1.5rem;
+	}
+	.images {
+		// width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-evenly;
+		background-color: white;
+		border-radius: 8px;
+
+		.hero-img {
+			// width: 50%;
+			width: 100%;
+			height: 100%;
+			object-fit: contain;
+			background-color: white;
+			border-radius: 8px;
+		}
+		.sprites {
+			width: 100%;
+			height: auto;
+			object-fit: contain;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			background-color: white;
+			border-radius: 8px;
+			.sprite {
+				width: 25%;
+				height: auto;
+				object-fit: contain;
+				border: 2px solid gray;
+				border-radius: 8px;
+			}
+		}
+	}
+	.type {
+		margin-top: 0.5vh;
+		margin-bottom: 0.5vh;
+		font-size: 1rem;
+		padding: 0.5vh 1vw;
+		background-color: blue;
+		border-radius: 8px;
+	}
+
+	.desc-wrapper {
+		display: flex;
+		align-items: center;
+		text-align: center;
+		height: 8rem;
+		background-color: white;
+		color: black;
+		border-radius: 8px;
+		.desc {
+			font-size: 1.2rem;
+			font-weight: 500;
+		}
+	}
+}

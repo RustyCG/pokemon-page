@@ -1,0 +1,64 @@
+@import "../../global.scss";
+
+.collection-container {
+	width: 75vw;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+	background: rgb(0, 113, 187);
+	background: linear-gradient(
+		90deg,
+		rgba(0, 113, 187, 1) 0%,
+		rgba(255, 204, 0, 1) 15%,
+		rgba(255, 255, 255, 1) 30%,
+		rgba(255, 255, 255, 1) 70%,
+		rgba(255, 204, 0, 1) 85%,
+		rgba(0, 113, 187, 1) 100%
+	);
+	color: white;
+
+	.headline {
+		font-size: 2.5rem;
+		margin-bottom: 0;
+	}
+	.pokedex-wrapper {
+		padding: 2vh 1.5vw;
+		margin-top: 1vh;
+		margin-bottom: 1vh;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		background-color: #ff4848;
+		border-radius: 8px;
+		.headline {
+			color: black;
+			margin: 0 0 1.5vh 0;
+		}
+		.counter {
+			padding: 2.5vh 1.8vw;
+			margin: 0;
+			background-color: black;
+			color: white;
+			font-size: 1.6rem;
+		}
+        .btn {
+            margin-top: 1.5vh;
+            font-size: 1rem;
+            font-weight: 400;
+            height: 2rem;
+            align-items: center;
+            justify-content: center;
+        }
+	}
+
+	.cards {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-wrap: wrap;
+		z-index: 99;
+	}
+}

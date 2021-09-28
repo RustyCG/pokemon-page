@@ -1,0 +1,11 @@
+@import "./global.scss";
+
+.app {
+	height: 100%;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	background-color: #0071bb;
+}
